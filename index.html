@@ -1,398 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simply Algo</title>
 
-    <!-- Primary Meta Tags -->
-<meta name="title" content="Play - Free Open Source HTML Bootstrap Template by UIdeck">
-<meta name="description" content="Play - Free Open Source HTML Bootstrap Template by UIdeck Team">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simply Algo Fintech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Favicon img -->
+  <!-- <link rel="shortcut icon" href="assets/images/favicon.png"> -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-    <!-- ===== All CSS files ===== -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
-  </head>
-  <body>
-    <!-- ====== Header Start ====== -->
-    <header class="ud-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/logo.svg" alt="Logo" />
-              </a>
-              <button class="navbar-toggler">
-                <span class="toggler-icon"> </span>
-                <span class="toggler-icon"> </span>
-                <span class="toggler-icon"> </span>
-              </button>
+<body>
+  <!-- Preloader area start -->
+  <div class="loading">
+    <span class="text-capitalize">S</span>
+    <span>i</span>
+    <span>m</span>
+    <span>p</span>
+    <span>l</span>
+    <span>y</span>
+    <span>A</span>
+    <span>l</span>
+    <span>g</span>
+    <span>o</span>
+    <span>F</span>
+    <span>i</span>
+    <span>n</span>
+    <span>t</span>
+    <span>e</span>
+    <span>c</span>
+    <span>h</span>
+  </div>
+  <div id="preloader">
+  </div>
+  <!-- Preloader area end -->
 
-              <div class="navbar-collapse">
-                <ul id="nav" class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#home">Home</a>
-                  </li>
+  <!-- Header area start here -->
+  <header class="header-area d-none d-lg-block">
+    <div class="container header__container">
+      <div class="header__main">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="logo">
+        </a>
+        <div class="main-menu ">
+          <nav>
+            <ul>
+              <li class="has-megamenu">
+                <a href="#home">Home</a>
+              </li>
+              <li><a href="#about">About Us</a></li>
+              <li>
+                <a href="#products">Our Products</a>
+              </li>
+              <li>
+                <a href="#features">Our Features</a>
+              </li>
 
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#pricing">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> Pages </a>
-                    <ul class="ud-submenu">
-                      <li class="ud-submenu-item">
-                        <a href="about.html" class="ud-submenu-link">
-                          About Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="pricing.html" class="ud-submenu-link">
-                          Pricing Page
-                        </a>
-                      </li>
-                      
-                      <li class="ud-submenu-item">
-                        <a href="blog.html" class="ud-submenu-link">
-                          Blog Grid Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="blog-details.html" class="ud-submenu-link">
-                          Blog Details Page
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="login.html" class="ud-submenu-link">
-                          Quantman
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="insta.html" class="ud-submenu-link">
-                          Insta Options
-                        </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="404.html" class="ud-submenu-link">404 Page</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+            </ul>
+          </nav>
+        </div>
 
-              <div class="navbar-btn d-none d-sm-inline-block">
-                <a href="login.html" class="ud-main-btn ud-white-btn">
-                  Quantman
-                </a>
-                <a href="insta.html" class="ud-main-btn ud-white-btn">
-                  Insta Options 
-                </a>
-              </div>
-            </nav>
-          </div>
+
+        <div class="bars d-block d-lg-none">
+          <i id="openButton" class="fa-solid fa-bars"></i>
         </div>
       </div>
-    </header>
-    <!-- ====== Header End ====== -->
+    </div>
+  </header>
+  <header class='d-block d-lg-none mobile-nav'>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul>
+            <li class="has-megamenu">
+              <a href="#home">Home</a>
+            </li>
+            <li><a href="#about">About Us</a></li>
+            <li>
+              <a href="#products">Our Products</a>
+            </li>
+            <li>
+              <a href="#features">Our Features</a>
+            </li>
 
-    <!-- ====== Hero Start ====== -->
-    <section class="ud-hero" id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-              <h1 class="ud-hero-title">
-                Open-Source Web Template for SaaS, Startup, Apps, and More
-              </h1>
-              <p class="ud-hero-desc">
-                Multidisciplinary Web Template Built with Your Favourite
-                Technology - HTML Bootstrap, Tailwind and React NextJS.
-              </p>
-              <ul class="ud-hero-buttons">
-                <li>
-                  <a href="https://links.uideck.com/play-bootstrap-download" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
-                    Download Now
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/uideck/play-bootstrap" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-link-btn">
-                    Learn More <i class="lni lni-arrow-right"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="ud-hero-brands-wrapper wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <img src="assets/images/hero/brand.svg" alt="brand" />
-            </div>
-            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-              <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
-              <img
-                src="assets/images/hero/dotted-shape.svg"
-                alt="shape"
-                class="shape shape-1"
-              />
-              <img
-                src="assets/images/hero/dotted-shape.svg"
-                alt="shape"
-                class="shape shape-2"
-              />
-            </div>
-          </div>
+          </ul>
         </div>
       </div>
-    </section>
-    <!-- ====== Hero End ====== -->
+    </nav>
+  </header>
+  <!-- Header area end here -->
 
-    <!-- ====== Features Start ====== -->
-    <section id="features" class="ud-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title">
-              <span>Features</span>
-              <h2>Main Features of Play</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
+  <main>
+    <!-- Banner -->
+    <section id="home" class="banner-area">
+      <div class="swiper banner__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="banner__shape-left3 wow slideInLeft">
+              <img class="sway__animation" src="assets/images/banner/banner-shape-left.png" alt="shape">
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-gift"></i>
-              </div>
-              <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Finance</h3>
-                <p class="ud-feature-desc">
-                  Step into the future of trading. We craft smart tools and savvy solutions that redefine success in financial markets. Join us in shaping excellence in every market move. Welcome to the cool era of trading brilliance.
+            <div class="banner__shape-right2" data-animation="slideInRight" data-duration="3s" data-delay=".3s">
+              <img src="assets/images/banner/banner-shape-right-line.png" alt="shape">
+            </div>
+            <div class="banner__shape-right1" data-animation="slideInRight" data-duration="2s" data-delay=".3s">
+              <img src="assets/images/banner/banner-shape-right.png" alt="shape">
+            </div>
+            <div class="slide-bg"></div>
+            <div class="container">
+              <div class="banner__content">
+                <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s" class="text-white">
+                  Intelligence Meets Simplicity in Every Trade
+                </h1>
+                <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
+                  At Simply Algo Fintech, we believe in transforming trading through innovation. Our journey began with
+                  a vision: making
+                  algorithmic trading accessible. Today, we are pioneers—delivering cutting-edge solutions that empower
+                  traders to
+                  navigate financial markets with true confidence.
+
                 </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-move"></i>
-              </div>
-              <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Algorithmic Execution</h3>
-                <p class="ud-feature-desc">
-                  Algorithmic execution is when computers make fast and smart decisions to buy or sell things in financial markets. It's like having a super-fast and clever assistant that helps you make the best trades automatically. Say goodbye to guesswork and hello to strategic intelligence.
-                </p>
-            </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-layout"></i>
-              </div>
-              <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Analytics Platform</h3>
-                <p class="ud-feature-desc">
-                  An Options Analytics Platform is your go-to tool for in-depth insights and analysis in options trading. It empowers users to evaluate strategies, assess risk, and make informed decisions, acting as a smart assistant for navigating the complexities of options trading.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-sm-6">
-            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
-              <div class="ud-feature-icon">
-                <i class="lni lni-layers"></i>
-              </div>
-              <div class="ud-feature-content">
-                <h3 class="ud-feature-title">Innovative / Disruptive</h3>
-                <p class="ud-feature-desc">
-                  Join us for a journey into the future of trading with innovative and disruptive technology in the financial markets. It's a game-changer, and you don't want to miss out. Let's redefine the way you trade and unlock new possibilities together.
-                </p>
+                <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="#contact-us"
+                  class="btn-one mt-3">Contact Us<i class="fa-regular fa-arrow-up-right"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- ====== Features End ====== -->
+    <!-- Banner -->
 
-    <!-- ====== About Start ====== -->
-    <section id="about" class="ud-about">
+    <!-- About Us -->
+    <section id='about' class="about-area  pt-120 pb-120" data-aos="fade-up" data-aos-duration="3000">
       <div class="container">
-        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <div class="ud-about-content-wrapper">
-            <div class="ud-about-content">
-              <span class="tag">Products</span>
-              <h2>Quantman</h2>
-              <p> 
-                QuantMan is a user-friendly online algorithmic trading platform designed for traders of all levels. It enables the development, backtesting, and deployment of trading strategies without the need for coding expertise. This cloud-based platform seamlessly integrates with well-known brokers like Zerodha, Upstox, and AngelOne. In a nutshell, QuantMan simplifies algo trading for everyone.
-              </p>
-              <a href="insta.html" class="ud-main-btn ud-white-btn">Learn More</a>
+        <div class="row g-4">
+          <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div class="about__left-item">
+              <div class="image big-image">
+                <div class='zoom'>
+                  <img src="assets/images/banner/about-image1.png" alt="image">
+                </div>
+              </div>
+              <div class="image sm-image">
 
+                <div class='zoom'>
+                  <img src="assets/images/banner/about-image2.png" alt="image">
+                </div>
+              </div>
+              <div class="circle-shape">
+                <img src="assets/images/shape/about-circle.png" alt="shape">
+              </div>
             </div>
           </div>
-          <div class="ud-about-image">
-            <img src="assets/images/about/about-image.svg" alt="about-image" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ====== About End ====== -->
-
-    <!-- ====== Pricing Start ====== -->
-   
-    <section id="features" class="ud-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title">
-              <span><h2>Join Our Team</h2></span>
-              <ol class="list-group list-group-numbered">
-                <li class="list-group-item">Fun and Agile Work Environment</li>
-                <li class="list-group-item">Flat Hierarchy in a Startup Fast-Paced Setting</li>
-                <li class="list-group-item">Embrace Cutting-Edge Tools and Tech</li>
-                <li class="list-group-item">Experience a High Learning Curve</li>
-                <li class="list-group-item">Work Across Multiple Services, Stacks, and Languages</li>
-                <li class="list-group-item">No Meeting Overload – Focus on Getting Things Done! </li>
-              </ol>
+          <div class="col-xl-6">
+            <div class="section-header mb-20">
+              <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Deliver Smart Solutions for
+                Modern Traders</h2>
+              <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">At Simply Algo Fintech, we
+                deliver intelligent business solutions that empower traders and institutions with data-driven tools,
+                seamless technology, and innovative platforms for smarter financial decision-making.</p>
             </div>
-          </div>
-        </div> 
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title">
-              <span><h2>Junior Developer (Frontend / Full Stack)</h2></span>
-              <ol class="list-group list-group-numbered">
-                <li class="list-group-item">Sound knowledge in javascript. (Promises / Eventloop / NonBlocking Code)</li>
-                <li class="list-group-item">Good Knowledge in building UI Components with react with recent industry standards(functional components)</li>
-                <li class="list-group-item">Build REST endpoints for multiple consumer clients</li>
-                <li class="list-group-item">Authentication & Authorization for API endpoints</li>
-                <li class="list-group-item">Build reusable components/modules for web and mobile-hybrid applications</li>
-              </ol>
+            <div class="row g-4 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <div class="col-md-6">
+                <div class="about__right-item">
+                  <div class="icon">
+                    <img src="assets/images/icon/about-icon1.png" alt="icon">
+                  </div>
+                  <div class="content">
+                    <h4 class="mb-1">Best Services</h4>
+                    <p>Delivering Excellence in Trading Services</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about__right-item">
+                  <div class="icon">
+                    <img src="assets/images/icon/about-icon2.png" alt="icon">
+                  </div>
+                  <div class="content">
+                    <h4 class="mb-1">Call Support</h4>
+                    <p>Connect with Us, We’re Ready</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="ud-section-title">
-              <span><h2>Backend Developer</h2></span>
-              <ul class="list-group list-group-numbered">
-                <li class="list-group-item">Sound knowledge in Node.js</li>
-                <li class="list-group-item">Java/Scala experience or exposure is an additional plus</li>
-                <li class="list-group-item"> Upgrade / Optimize and Manage data pipelines to transform daily data and ingest in multiple formats for different services.</li>
-                <li class="list-group-item">Add new data processing (sanitize/transform/dump) for new data sources from different vendors.</li>
-                <li class="list-group-item">Add custom algorithmic execution snippets for customers to configure and use for execution.</li>
-                <li class="list-group-item">Add new strategies for faster order execution based on Stock Broker API differences.</li>
-                <li class="list-group-item">Write highly scalable microservices to handle 20+K requests per second.</li>
-              </ul>
-            </div>
-          </div>
-        </div>        
+            <div class="about__info mt-20 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+              <a href="https://www.quantman.in/ " target='_blank' class="btn-one">Explore More <i
+                  class="fa-regular fa-arrow-up-right"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- ====== Pricing End ====== -->
+    <!-- About Us -->
 
-    <!-- ====== Footer Start ====== -->
-    <footer class="ud-footer wow fadeInUp" data-wow-delay=".1s">
-      <div class="ud-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <ul class="ud-footer-bottom-left">
-                <li>
-                  <a href="javascript:void(0)">Quantman</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Insta Options</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)"> contactus@quantman.in | hr@quantman.in </a>
-                </li>
-              </ul>
+    <section class='sub-bg' id="products">
+      <!-- Products -->
+      <section class='products mb-50' data-aos="fade-up" data-aos-duration="3000">
+        <div class='container'>
+          <div class='text-center mx-auto mb-30'>
+            <h2 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+              Our Popular Products
+            </h2>
+            <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
+              Discover innovative tools crafted for modern traders. Our flagship platforms help you navigate markets
+              confidently,
+              combining simplicity with performance to support smarter trading journeys across different strategies and
+              experience
+              levels.
+            </p>
+          </div>
+          <div class='row d-flex justify-content-center align-items-center g-4'>
+            <div class='col-lg-5 col-md-6 col-12'>
+              <div class='product-item'>
+                <div class='product-image'>
+                  <div class='zoom'>
+                    <img src='assets/images/product-1.png' alt='Product 1'>
+                  </div>
+
+                </div>
+                <div class='product-content mt-20'>
+                  <img src="assets/images/instaoption.png" alt="">
+                  <p>InstaOptions is a comprehensive options analytics platform simplifying complex data with tools like
+                    OI, PCR, Payoff
+                    Charts.</p>
+                  <a href='#' class='btn-one'>View Site <i class="fa-regular fa-arrow-up-right"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+
             </div>
-            <div class="col-md-4">
-              <p class="ud-footer-bottom-right">
-                 Copyright © PreSkale. All Rights Reserved
-              </p>
+            <div class='col-lg-5 col-md-6 col-12'>
+              <div class='product-item'>
+                <div class='product-image'>
+                  <div class='product-image'>
+                    <div class='zoom'>
+                      <img src='assets/images/product-2.png' alt='Product 1'>
+                    </div>
+
+                  </div>
+                </div>
+                <div class='product-content mt-20'>
+                  <img src="assets/images/quantman.png" alt="">
+                  <p>InstaOptions is a comprehensive options analytics platform simplifying complex data with tools like
+                    OI, PCR, Payoff
+                    Charts.</p>
+                  <a href='#' class='btn-one'>View Site <i class="fa-regular fa-arrow-up-right"
+                      aria-hidden="true"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products -->
+      <!-- Services -->
+
+
+    </section>
+
+    <section class="service-area mb-50 " id="features" data-aos="fade-up" data-aos-duration="3000">
+
+      <div class="container">
+        <div class='text-center mx-auto mb-30'>
+          <h2 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
+            Our Features
+          </h2>
+          <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
+            Explore the core strengths of Simply Algo Fintech. Our features are crafted to support traders at every
+            level,
+            delivering seamless performance, intelligent tools, and reliable technology to elevate your trading
+            potential.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+            <div class="service__item">
+              <div class="service-shape">
+                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+              </div>
+              <div class="service__icon">
+                <img src="assets/images/icon/service-icon1.png" alt="icon">
+              </div>
+              <h4><a href="service-details.html">IT Management</a></h4>
+              <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                euismod quis sapien.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+            <div class="service__item active">
+              <div class="service-shape">
+                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+              </div>
+              <div class="service__icon">
+                <img src="assets/images/icon/service-icon2.png" alt="icon">
+              </div>
+              <h4><a href="service-details.html">Cyber Security</a></h4>
+              <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                euismod quis sapien.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+            <div class="service__item">
+              <div class="service-shape">
+                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+              </div>
+              <div class="service__icon">
+                <img src="assets/images/icon/service-icon3.png" alt="icon">
+              </div>
+              <h4><a href="service-details.html">Web Development</a></h4>
+              <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
+                euismod quis sapien.</p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- ====== Footer End ====== -->
+    </section>
 
-    <!-- ====== Back To Top Start ====== -->
-    <a href="javascript:void(0)" class="back-to-top">
-      <i class="lni lni-chevron-up"> </i>
-    </a>
-    <!-- ====== Back To Top End ====== -->
+    <!-- Counter -->
+    <section class="counter-area" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+        <div class="counter__wrp gradient-bg">
+          <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <img src="assets/images/shape/counnter-bg-shape.png" alt="shape">
+          </div>
+          <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+            <img src="assets/images/icon/counter-icon1.png" alt="icon">
+            <div class="content">
+              <h3><span class="count">6,561</span>+</h3>
+              <p class="text-white">Satisfied Clients</p>
+            </div>
+          </div>
+          <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+            <img src="assets/images/icon/counter-icon2.png" alt="icon">
+            <div class="content">
+              <h3><span class="count">600</span>+</h3>
+              <p class="text-white">Finished Projects</p>
+            </div>
+          </div>
+          <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+            <img src="assets/images/icon/counter-icon3.png" alt="icon">
+            <div class="content">
+              <h3><span class="count">250</span>+</h3>
+              <p class="text-white">Skilled Experts</p>
+            </div>
+          </div>
+          <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
+            <img src="assets/images/icon/counter-icon4.png" alt="icon">
+            <div class="content">
+              <h3><span class="count">590</span>+</h3>
+              <p class="text-white">Media Posts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter -->
 
-    <!-- ====== All Javascript Files ====== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-      // ==== for menu scroll
-      const pageLink = document.querySelectorAll(".ud-menu-scroll");
+    <!-- Testimonial area start here -->
+    <section class="testimonial-area bg-image pt-70 pb-120 mt-120 mb-120"
+      data-background="assets/images/testimonial-img.png" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
 
-      pageLink.forEach((elem) => {
-        elem.addEventListener("click", (e) => {
-          e.preventDefault();
-          document.querySelector(elem.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-            offsetTop: 1 - 60,
-          });
-        });
-      });
+          </div>
+          <div class="col-lg-8 ">
+            <div class="section-header mb-40">
+              <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What They Say
+                About Our</h2>
+              <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">It is a long
+                established fact that a reader will be distracted the readable content
+                of a page when looking at layout the
+                point of using lorem the is Ipsum less normal distribution of letters.</p>
+            </div>
+            <div class="swiper testimonial__slider wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial__item">
+                    <img src="assets/images/testi.png" alt="">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="testi-info">
+                        <h4>Kevin David</h4>
+                        <p>Content Writer</p>
 
-      // section menu active
-      function onScroll(event) {
-        const sections = document.querySelectorAll(".ud-menu-scroll");
-        const scrollPos =
-          window.pageYOffset ||
-          document.documentElement.scrollTop ||
-          document.body.scrollTop;
+                      </div>
+                    </div>
+                    <p class="mt-10">“ Simply Algo Fintech transformed how I trade. Their intuitive tools and reliable
+                      performance helped me gain confidence,
+                      improve strategies, and make smarter market decisions ”</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial__item">
+                    <img src="assets/images/testi.png" alt="">
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="testi-info">
+                        <h4>Arun</h4>
+                        <p>Video Editor</p>
 
-        for (let i = 0; i < sections.length; i++) {
-          const currLink = sections[i];
-          const val = currLink.getAttribute("href");
-          const refElement = document.querySelector(val);
-          const scrollTopMinus = scrollPos + 73;
-          if (
-            refElement.offsetTop <= scrollTopMinus &&
-            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-          ) {
-            document
-              .querySelector(".ud-menu-scroll")
-              .classList.remove("active");
-            currLink.classList.add("active");
-          } else {
-            currLink.classList.remove("active");
-          }
-        }
-      }
+                      </div>
+                    </div>
+                    <p class="mt-30">“ I started with zero coding knowledge, but Simply Algo made algo trading simple.
+                      Their platform is clean, fast, and
+                      genuinely helpful for everyday traders ”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial__arry-btn wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+              <button class="arry-prev testimonial__arry-prev"><i class="fa-regular fa-chevron-left"></i></button>
+              <button class="arry-next testimonial__arry-next active"><i
+                  class="fa-regular fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial area end here -->
 
-      window.document.addEventListener("scroll", onScroll);
-    </script>
-  </body>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-area secondary-bg" id='contact-us'>
+    <div class="footer__shape-regular-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+      <img src="assets/images/shape/footer-regular-left.png" alt="shape">
+    </div>
+    <div class="footer__shape-solid-left wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img class="sway_Y__animation" src="assets/images/shape/footer-solid-left.png" alt="shape">
+    </div>
+    <div class="footer__shape-solid-right wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+      <img class="sway_Y__animation" src="assets/images/shape/footer-regular-right.png" alt="shape">
+    </div>
+    <div class="footer__shape-regular-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+      <img src="assets/images/shape/footer-solid-right.png" alt="shape">
+    </div>
+    <div class="footer__shadow-shape">
+      <img src="assets/images/shape/footer-shadow-shape.png" alt="shodow">
+    </div>
+    <div class="container">
+      <div class="footer__wrp pt-50 pb-50">
+        <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+          <a href="index.html" class="logo mb-30">
+            <img src="assets/images/logo.png" alt="image">
+          </a>
+          <p>Transforming Markets with Intelligent Trading Solutions
+          </p>
+          <div class="social-icon">
+            <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#0"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#0"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <h3 class="footer-title">Our Products</h3>
+          <ul>
+            <li><a href="https://www.quantman.in/" target="_blank"><i
+                  class="fa-regular fa-angles-right me-1"></i>Quantman <i class="fa-regular fa-arrow-up-right"
+                  aria-hidden="true"></i></a></li>
+            <li><a href="instaoptions.in" target='_blank'><i class="fa-regular fa-angles-right me-1"></i>InstaOptions <i
+                  class="fa-regular fa-arrow-up-right" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+          <h3 class="footer-title">Our Features</h3>
+          <ul>
+            <li><a href="#"><i class="fa-regular fa-angles-right me-1"></i> Feature One</a></li>
+            <li><a href="#"><i class="fa-regular fa-angles-right me-1"></i> Feature Tow</a>
+            </li>
+            <li><a href="#"><i class="fa-regular fa-angles-right me-1"></i>Feature Tow</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+          <h3 class="footer-title">Contact Us</h3>
+          <p class="mb-20">D Quarters, 48/28, Balan nagar, Peelamedu,
+            Coimbatore - 641004, Tamil Nadu</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="d-flex gap-1 flex-wrap align-items-center  justify-content-center">
+          <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2025
+            by <a href="#0">Simply Algo Fintech</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="https://kit.fontawesome.com/3413275019.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Jquery 3.7.0 Min Js -->
+  <!-- Jquery 3.7.0 Min Js -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap min Js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- Mean menu Js -->
+  <script src="assets/js/meanmenu.js"></script>
+  <!-- Swiper bundle min Js -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <!-- Counterup min Js -->
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <!-- Pace min Js -->
+  <script src="assets/js/pace.min.js"></script>
+  <!-- Magnific popup min Js -->
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <!-- Magnific popup min Js -->
+  <script src="assets/js/jquery.waypoints.js"></script>
+  <!-- Script Js -->
+  <script src="assets/js/script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
