@@ -2237,7 +2237,11 @@ button {
     width: 25%;
   }
 }
-
+@media (min-width: 2500px) and (max-width: 3200px) {
+  .header-area::after {
+    width: 38%;
+  }
+}
 @media (max-width: 991px) {
   .header-area::after {
     width: 30%;

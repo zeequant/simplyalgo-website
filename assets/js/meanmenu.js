@@ -1,29 +1,4 @@
-/*!
-* jQuery meanMenu v2.0.8
-* @Copyright (C) 2012-2014 Chris Wharton @ MeanThemes (https://github.com/meanthemes/meanMenu)
-*
-*/
-/*
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version.
-*
-* THIS SOFTWARE AND DOCUMENTATION IS PROVIDED "AS IS," AND COPYRIGHT
-* HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED,
-* INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR
-* FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE
-* OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
-* COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.COPYRIGHT HOLDERS WILL NOT
-* BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL
-* DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.
-*
-* You should have received a copy of the GNU General Public License
-* along with this program. If not, see <http://gnu.org/licenses/>.
-*
-* Find more information at http://www.meanthemes.com/plugins/meanmenu/
-*
-*/
+
 (function ($) {
 	"use strict";
 	$.fn.meanmenu = function (options) {
@@ -63,7 +38,7 @@
 			var meanRevealColour = options.meanRevealColour;
 			var meanScreenWidth = options.meanScreenWidth;
 			var meanNavPush = options.meanNavPush;
-			var meanRevealClass = ".meanmenu-reveal";
+			var meanRevealClass = "";
 			var meanShowChildren = options.meanShowChildren;
 			var meanExpandableChildren = options.meanExpandableChildren;
 			var meanExpand = options.meanExpand;
@@ -144,7 +119,7 @@
 					meanMenuExist = true;
 					// add class to body so we don't need to worry about media queries here, all CSS is wrapped in '.mean-container'
 					jQuery(meanContainer).addClass("mean-container");
-					jQuery('.mean-container').prepend('<div class="mean-bar"><a href="#nav" class="meanmenu-reveal" style="' + meanStyles + '">Show Navigation</a><nav class="mean-nav"></nav></div>');
+					jQuery('.mean-container').prepend('');
 
 					//push meanMenu navigation into .mean-nav
 					var meanMenuContents = jQuery(meanMenu).html();
